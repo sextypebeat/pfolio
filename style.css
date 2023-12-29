@@ -964,7 +964,7 @@ p {
 @media (hover: none) and (pointer: coarse) {
     .cursor-dot,
     .cursor-outline {
-        display: none;
+        visibility: hidden;
     }
 }
     
