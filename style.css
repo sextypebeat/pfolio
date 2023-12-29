@@ -962,6 +962,7 @@ p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (hover: none) and (pointer: coarse) {
     .cursor-dot,
     .cursor-outline {
@@ -976,6 +977,8 @@ p {
 >>>>>>> b949a0bbcec49966536348cc0ecb6f3a8b1e682e
 }
 
+=======
+>>>>>>> a6d64c53022bde8d90a75dedd44bc8338aaa0cb7
 /*-----------------------------------*\
   #BUG-FIXES
 \*-----------------------------------*/
