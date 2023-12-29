@@ -452,7 +452,7 @@ ion-icon { color: black; }
 }
 
 .marquee {
-    width: 1000%;
+    width: 100%;
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
@@ -663,7 +663,7 @@ textarea #message {
 
 .preview {
     width: 250px;
-    height: 250px;
+    height: 140.625px;
     overflow: hidden;
     pointer-events: none;
     transform-origin: center;
@@ -685,7 +685,7 @@ textarea #message {
 .preview-img {
     width: 100%;
     height: 100%;
-    background: url(./assets/1.png);
+    background: url(../assets/1.png);
     background-size: cover;
     background-position: 0 0;
     pointer-events: none;
@@ -764,6 +764,13 @@ p {
     pointer-events: none;
 }
 
+@media (hover: none) and (pointer: coarse) {
+    .cursor-dot,
+    .cursor-outline {
+        display: none;
+    }
+}
+
 /*-----------------------------------*\
   #BUG-FIXES
 \*-----------------------------------*/
@@ -775,6 +782,10 @@ i {
 }
 
 #projects {
+    display: none;
+}
+
+.line-container {
     display: none;
 }
 

@@ -383,10 +383,11 @@ function lerp(start, end, t){
         
         const bgPositions = {
             p1: "0 0",
-            p2: "0 25%",
-            p3: "0 50%",
-            p4: "0 75%",
-            p5: "0 100%",
+            p2: "0 20%",
+            p3: "0 40%",
+            p4: "0 60%",
+            p5: "0 80%",
+            p6: "0 100%",
         };
         
         const moveStuff = (e) => {
@@ -467,6 +468,7 @@ function lerp(start, end, t){
         var toggleprojectbtn = document.getElementById('toggle-projectbtn');
         var list = document.querySelector(".container");
         var grid = document.getElementById('projects');
+        var lines = document.querySelector(".line-container");
 
         var toggleNumber;
 
@@ -487,9 +489,13 @@ function lerp(start, end, t){
         function GridFunction() {
             list.style.display = 'none';
             grid.style.display = 'block';
+            lines.style.display = 'block';
         }
 
         function ListFunction() {
             grid.style.display = 'none';
+            lines.style.display = 'none';
             list.style.display = 'flex';
         }
+
+        

@@ -458,7 +458,7 @@ ion-icon { color: black; }
 }
 
 .marquee {
-    width: 1000%;
+    width: 100%;
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
@@ -630,6 +630,13 @@ textarea #message {
     border-radius: 50%;
     z-index: 999999999;
     pointer-events: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .cursor-dot,
+    .cursor-outline {
+        display: none;
+    }
 }
 
 /*-----------------------------------*\
