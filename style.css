@@ -961,11 +961,19 @@ p {
     pointer-events: none;
 }
 
+<<<<<<< HEAD
 @media (hover: none) and (pointer: coarse) {
     .cursor-dot,
     .cursor-outline {
         display: none;
     }
+=======
+@media (pointer: coarse) {
+    .cursor-dot,
+    .cursor-outline {
+    display: none;
+  }
+>>>>>>> b949a0bbcec49966536348cc0ecb6f3a8b1e682e
 }
 
 /*-----------------------------------*\
