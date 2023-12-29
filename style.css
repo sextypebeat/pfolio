@@ -961,6 +961,13 @@ p {
     pointer-events: none;
 }
 
+@media (pointer: coarse) {
+    .cursor-dot,
+    .cursor-outline {
+    display: none;
+  }
+}
+
 /*-----------------------------------*\
   #BUG-FIXES
 \*-----------------------------------*/
