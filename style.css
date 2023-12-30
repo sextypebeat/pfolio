@@ -996,6 +996,10 @@ textarea #message {
     .item {
         padding: 4em 2.5em 0 0;
     }
+
+    .marquee span {
+        font-size: 6em;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
