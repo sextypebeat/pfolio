@@ -823,10 +823,6 @@ p {
         padding: 0.9em 1em;
     }
 
-    .contact-section {
-        margin-top: 0;
-    }
-
     input {
         font-size: 15px;
     }
@@ -846,10 +842,6 @@ p {
     svg {
         height: 80%;
     }
-
-    .item {
-        padding: 4em 2.5em 0 0;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -860,12 +852,8 @@ p {
     }
 
     .menu-footer {
-        position: absolute;
+        position: relative;
         bottom: 0;
-        left: 10px;
-        right: 10px;
-        margin-bottom: 10px;
-        display: block;
     }
 }
 
@@ -878,12 +866,15 @@ p {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (min-aspect-ratio: 16/9) {}
+@media only screen and (min-width: 992px) and (min-aspect-ratio: 16/9) {
+    .about-text {
+        width: 65%;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) and (min-aspect-ratio: 16/9) {}
 
-    
 /*-----------------------------------*\
   #BUG-FIXES
 \*-----------------------------------*/
@@ -894,6 +885,10 @@ i {
     letter-spacing: .8px;
 }
 
-.container {
+#projects {
+    display: none;
+}
+
+.line-container {
     display: none;
 }
