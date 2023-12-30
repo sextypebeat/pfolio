@@ -996,8 +996,11 @@ p {
     }
 
     .menu-footer {
-        position: relative;
+        position: absolute;
         bottom: 0;
+        left: 10px;
+        right: 10px;
+        margin-bottom: 10px;
         display: block;
     }
 
@@ -1018,8 +1021,12 @@ p {
     }
 
     .menu-footer {
-        position: relative;
+        position: absolute;
         bottom: 0;
+        left: 10px;
+        right: 10px;
+        margin-bottom: 10px;
+        display: block;
     }
 }
 
