@@ -471,6 +471,7 @@ function lerp(start, end, t){
         var toggleprojectbtn = document.getElementById('toggle-projectbtn');
         var list = document.querySelector(".container");
         var grid = document.getElementById('projects');
+        var grids = document.getElementById('main');
         var lines = document.querySelector(".line-container");
 
         var toggleNumber;
@@ -492,11 +493,13 @@ function lerp(start, end, t){
         function GridFunction() {
             list.style.display = 'none';
             grid.style.display = 'block';
+            grids.style.display = 'block';
             lines.style.display = 'block';
         }
 
         function ListFunction() {
             grid.style.display = 'none';
+            grids.style.display = 'none';
             lines.style.display = 'none';
             list.style.display = 'flex';
         }
