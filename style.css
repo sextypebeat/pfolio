@@ -975,8 +975,22 @@ p {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .about-text{
-        width: 88%;
-        font-size: 22px;
+        width: 89%;
+        font-size: 21px;
+    }
+
+    .blogh1,
+    .blogparagraph {
+        margin-left: 10px;
+    }
+
+    .menu-footer {
+        margin-top: 200px;
+        display: block;
+    }
+
+    .menu-footer svg {
+        visibility: hidden;
     }
 }
 
@@ -985,6 +999,10 @@ p {
     .about-text{
         width: 83%;
         font-size: 24px;
+    }
+
+    .menu-footer {
+        margin-top: 200px;
     }
 }
 
