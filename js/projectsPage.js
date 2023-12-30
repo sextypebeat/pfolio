@@ -325,6 +325,9 @@ function lerp(start, end, t){
             
             document.querySelector(".menu-open-btn").addEventListener("click", openMenu);
             document.querySelector(".menu-close-btn").addEventListener("click", closeMenu);
+            document.querySelectorAll(".menu-link").forEach(function(link) {
+                link.addEventListener("click", closeMenu);
+            });
             
         });
         

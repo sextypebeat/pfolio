@@ -241,6 +241,10 @@ document.addEventListener("DOMContentLoaded", function(){
     
     document.querySelector(".menu-open-btn").addEventListener("click", openMenu);
     document.querySelector(".menu-close-btn").addEventListener("click", closeMenu);
+    document.querySelectorAll(".menu-link").forEach(function(link) {
+        link.addEventListener("click", closeMenu);
+    });
+    
     
 });
 
