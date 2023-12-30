@@ -508,6 +508,42 @@ h4 {
     font-size: .8rem;
 }
 
+@media only screen and (max-width: 1100px) {
+    p {
+        font-size: .8rem;
+    }
+
+    #projects {
+        height: 400%;
+    }
+
+    .projects-sticky {
+        height: 25%;
+    }
+
+    .project {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #projects {
+        height: 800%;
+    }
+
+    .projects-sticky {
+        height: 12.5%;
+    }
+
+    .project {
+        width: 100vw;
+    }
+
+    .post {
+        width: 80%;
+    }
+}
+
 /*-----------------------------------*\
   #BLOGS
 \*-----------------------------------*/
@@ -680,42 +716,6 @@ h4 {
 }
 
 ion-icon { color: black; }
-
-@media only screen and (max-width: 1100px) {
-    p {
-        font-size: .8rem;
-    }
-
-    #projects {
-        height: 400%;
-    }
-
-    .projects-sticky {
-        height: 25%;
-    }
-
-    .project {
-        width: 50vw;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #projects {
-        height: 800%;
-    }
-
-    .projects-sticky {
-        height: 12.5%;
-    }
-
-    .project {
-        width: 100vw;
-    }
-
-    .post {
-        width: 80%;
-    }
-}
 
 .marquee {
     width: 100%;
