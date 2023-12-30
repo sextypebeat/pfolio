@@ -758,8 +758,6 @@ ion-icon { color: black; }
     margin-bottom: 10px;
 }
 
-.contact-section span {}
-
 .contact-details {
     letter-spacing: 0.5px;
 }
@@ -801,7 +799,7 @@ input {
 
 .row {
     display: flex;
-    margin: 2em 0 !important;
+    margin: 2em 0;
 }
 
 textarea #message {
@@ -1011,6 +1009,41 @@ p {
     .slogan {
         margin-top: 0px;
     }
+
+    .contact-details p {
+        font-size: 30px;
+        line-height: 32px;
+        padding-top: 0em;
+    }
+
+    .sublink {
+        letter-spacing: 0.6px;
+        font-size: 13px;
+    }
+
+    .col {
+        padding: 0.9em 1em;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
+    .message {
+        font-size: 15px;
+    }
+    
+    .submit {
+        margin-bottom: 0;
+    }
+
+    .submit a {
+        font-size: 30px;
+    }
+
+    svg {
+        height: 80%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -1061,10 +1094,6 @@ i {
     position: relative;
     top: 1px;
     letter-spacing: .8px;
-}
-
-#projects {
-    /* display: none; */
 }
 
 .container {

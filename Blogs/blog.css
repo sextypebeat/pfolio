@@ -496,8 +496,6 @@ ion-icon { color: black; }
     margin-bottom: 10px;
 }
 
-.contact-section span {}
-
 .contact-details {
     letter-spacing: 0.5px;
 }
@@ -662,8 +660,11 @@ textarea #message {
     }
 
     .menu-footer {
-        position: relative;
+        position: absolute;
         bottom: 0;
+        left: 10px;
+        right: 10px;
+        margin-bottom: 10px;
         display: block;
     }
 
@@ -673,6 +674,41 @@ textarea #message {
 
     .slogan {
         margin-top: 0px;
+    }
+
+    .contact-details p {
+        font-size: 30px;
+        line-height: 32px;
+        padding-top: 0em;
+    }
+
+    .sublink {
+        letter-spacing: 0.6px;
+        font-size: 13px;
+    }
+
+    .col {
+        padding: 0.9em 1em;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
+    .message {
+        font-size: 15px;
+    }
+    
+    .submit {
+        margin-bottom: 0;
+    }
+
+    .submit a {
+        font-size: 30px;
+    }
+
+    svg {
+        height: 80%;
     }
 }
 
@@ -719,10 +755,6 @@ i {
     position: relative;
     top: 1px;
     letter-spacing: .8px;
-}
-
-#projects {
-    /* display: none; */
 }
 
 .container {
