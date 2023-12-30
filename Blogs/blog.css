@@ -766,16 +766,8 @@ textarea #message {
   #BUG-FIXES
 \*-----------------------------------*/
 
-.container {
-    color: black;
-}
-
 i {
     position: relative;
     top: 1px;
     letter-spacing: .8px;
-}
-
-.container {
-    display: none;
 }

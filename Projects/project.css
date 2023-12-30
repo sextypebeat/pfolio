@@ -888,10 +888,6 @@ p {
   #BUG-FIXES
 \*-----------------------------------*/
 
-.container {
-    color: black;
-}
-
 i {
     position: relative;
     top: 1px;
