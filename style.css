@@ -913,6 +913,10 @@ textarea #message {
     .slogan {
         margin-top: 0px;
     }
+
+    .post {
+        width: 90%;
+    }
 }
     
 /* Extra small devices (phones, 600px and down) */
@@ -938,6 +942,10 @@ textarea #message {
 
     .menu-footer svg {
         display: none;
+    }
+
+    .post {
+        width: 65%;
     }
 
     .slogan {
