@@ -51,7 +51,7 @@ const projects = [
         type: 'Web Design',
         pos: 'end',
         image: '../assets/Projects/ProductPage.png',
-        link: 'https://instagram.com'
+        link: 'https://anshitsinha.github.io/ecstacy/'
     },
 ];
 
